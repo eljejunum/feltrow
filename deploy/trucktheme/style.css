@@ -1,0 +1,618 @@
+/*
+Theme Name: Truck Accident Experts
+Theme URI: http://www.vpstechs.com/
+Description:  Truck Accident Experts theme is developed by vpstcehs team. It is Totally wordpress compatible theme.
+Author: Vpstechs Team
+Author URI: http://vpstechs.com
+Version: 1.0
+License: GPL
+License URI: http://www.gnu.org/copyleft/gpl.html
+*/
+
+@font-face
+{
+font-family: QuattrocentoSans-Bold;
+src: url("fonts/QuattrocentoSans-Bold.ttf") /* EOT file for IE */
+}
+@font-face
+{
+font-family: QuattrocentoSans-Regular;
+src: url("fonts/QuattrocentoSans-Regular.ttf") /* EOT file for IE */
+}
+body {
+	font-size: 14px;
+	font-size: 1rem;
+	font-family: Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	color: #444;
+	background: url("images/TruckExperts-home-small-bg.jpg");
+	background-position:center; 
+}
+.mainWrapper{
+	padding:2px 0px 40px 0px;
+	width:990px;
+	margin:0 auto;
+}
+.headTop{
+	height:85px;
+	background: url("images/topHeadBg.png") no-repeat 0px 10px;
+	background-position:middle;
+}
+.logo{
+	margin-left:20px;
+	width:417px;
+}
+.header{
+	height:410px;
+	background: url("images/homeMainHeaderBg.jpg") no-repeat;
+}
+.headerAbout{
+	height:410px;
+	background: url("images/aboutMainHeaderBg.jpg") no-repeat;
+}
+.headerRate{
+	height:410px;
+	background: url("images/rateMainHeaderBg.jpg") no-repeat;
+}
+.headerContact{
+	height:410px;
+	background: url("images/contactMainHeaderBg.jpg") no-repeat;
+}
+.headerLinks{
+	height:410px;
+	background: url("images/linksMainHeaderBg.jpg") no-repeat;
+}
+.contactFrmCssSet{float:left;width:49%;}
+#linkSet a{height:25px;}
+.phoneNo{
+	float:right;
+	font-family: "QuattrocentoSans-Regular";
+	font-size:13pt;
+	margin:0px 30px 0px 0px;
+	color:#0076a3;
+}
+.phoneNo span{
+	color:#FFF;
+}
+#contactFormSet p{margin:0px 20px 0px 15px;line-height:25px;}
+.headerLeft{
+	float:left;
+	height:300px;
+	border:0px solid #000;
+	width:70%;
+}
+.wpcf7-textarea{height:100px;width:255px;}
+.headerRight{
+	float:right;
+	height:300px;
+	width:25%;
+	padding-top:20px;
+}
+.headerRight p{
+	color:#FFF;
+	font-family: "QuattrocentoSans-Regular";
+	font-size:16pt;
+	margin:5px 0px 15px 0px;
+	padding:0px;
+}
+.headerRightTxtWrap{
+	float:right;
+	margin-right:20px;
+	margin-top:30px;
+}
+.odd{background-color:#ccc;}
+#topMenu {
+   height: 30px;
+   border:0px solid #000;
+   width:576px;
+   float:right;
+   margin-top:10px;
+   margin-right:-2px;
+ }
+#topMenu ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#topMenu li {
+    float: left;
+    margin: 0 0.10em;
+	
+}
+#topMenu li a {
+    background: url("images/topNavBg.png") no-repeat scroll 0 0 transparent;
+    color: #FFF;
+    display: block;
+    float: left;
+    font-family: "QuattrocentoSans-Bold";
+    height: 30px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 112px;
+	font-size:11pt;
+}
+#topMenu li a:hover{
+	color: #00bff3;
+}
+#topMenu .active a {
+    color: #00bff3;
+    display: block;
+    float: left;
+    font-family: "QuattrocentoSans-Bold";
+    height: 30px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 112px;
+}
+.topHeadTilte{
+	margin:15px 0px 0px 0px;
+	padding:0px;
+	font-family: "QuattrocentoSans-Regular";
+	color:#d0b260;
+	font-weight:normal;
+	margin-left:30px;
+	font-size:34pt;
+}
+.topHeadTilte span{
+	color:#00aeef;
+}
+.topHeadSubTilte{
+	margin:0px;
+	padding:0px;
+	font-family: "QuattrocentoSans-Regular";
+	color:#00aeef;
+	font-weight:normal;
+	margin-left:30px;
+	font-size:17pt;
+	float:right;
+	margin-right:129px;
+}
+.topHeadTxt{
+	margin-left:30px;
+	font-family: "QuattrocentoSans-Regular";
+	color:#cccccc;
+	line-height: 25px;
+	width:72%;
+	font-size:14pt;
+	margin-top:15px;
+}
+.topHeadTxt2{
+	margin-left:30px;
+	font-family: "QuattrocentoSans-Regular";
+	color:#cccccc;
+	line-height: 25px;
+	width:63%;
+	font-size:14pt;
+	margin-top:15px;
+}
+.topHeadTxt3{
+	margin-left:30px;
+	font-family: "QuattrocentoSans-Regular";
+	color:#cccccc;
+	line-height: 25px;
+	width:63%;
+	font-size:18px;
+	margin-top:15px;
+}
+.topHeadTxt span{
+	font-family: "QuattrocentoSans-Regular";
+	color:#d2bc81;
+	line-height: 25px;
+	width:80%;
+	font-size:14pt;
+	margin-top:15px;
+}
+.topHeadTxt3 span{
+	font-family: "QuattrocentoSans-Regular";
+	color:#d2bc81;
+	line-height: 25px;
+	width:80%;
+	font-size:18px;
+	margin-top:15px;
+}
+.topHeadTxt3 span div{
+	width:93%;
+}
+.content{
+	margin-top:-1px;
+	background-color: #EAD998;
+}
+.contentLeft{
+	width:326px;
+	border:0px solid #000;
+	float:left;
+}
+.introTxt{
+	color:#000;
+	font-family: "QuattrocentoSans-Bold";
+	font-size:18px;
+	line-height:25px;
+	margin-top:-5px;
+	min-height:278px;
+	min-height:278px;
+	border:0px solid #000;
+}
+.introTxt p{
+	margin:0px 0px 0px 14px;
+	padding:18px 0px 18px 10px;
+}
+.contentRight{
+	width:664px;
+	border:0px solid #000;
+	float:right;
+	background: #e4e3df url("images/contentRightBg.png") no-repeat 22px 0px;
+	padding:0px 0px 0px 0px;
+	color:#000;
+	font-family: "QuattrocentoSans-Regular";
+	font-size:19px;
+}
+.contentRightRate{
+	width:664px;
+	border:0px solid #000;
+	float:right;
+	background: #e4e3df url("images/contentRightBg.png") no-repeat 22px 0px;
+	padding:0px 0px 0px 0px;
+	color:#000;
+	font-family: "QuattrocentoSans-Regular";
+	font-size:19px;
+}
+.contentFull{
+	width:100%;
+	border:0px solid #000;
+	float:right;
+	background: #e4e3df url("images/contentRightBg.png") no-repeat 348px 0px;
+	padding:10px 0px 0px 0px;
+	color:#000;
+	font-family: "QuattrocentoSans-Regular";
+	font-size:18px;
+}
+
+.contentRight p{
+	margin:15px 20px 11px 15px;
+	line-height:25px;
+}
+.contentRightRate ul li{
+	height:25px;
+}
+.contentRightRate p{
+	margin:15px 20px 11px 15px;
+	line-height:25px;
+}
+.contentRight ul li{
+	height:25px;
+}
+.viewCvSet{position:absolute;float:left;margin-left:-263px;margin-top:44px}
+.viewCvSetMobile{
+	float: left;
+	margin: 0 auto;
+    margin-top: 30px !important;
+    position: absolute;
+}
+.viewCvSetMobile img{border:none;}
+.viewCvSet img{border:none;}
+.emailUsNowSet img{border:none;}
+.emailUsNowSet{position:absolute;float:left;margin-left:-85px;margin-top:50px}
+.emailUsNowSetLink{position:absolute;float:left;margin-left:60px;margin-top:50px}
+.emailUsNowSetLink img{border:none;}
+.viewCvSet2{position:absolute;float:left;margin-left:-266px;margin-top:50px}
+.viewCvSet2 img{border:none;}
+.viewCvSetRate{position:absolute;float:left;margin-left:-80px;margin-top:50px}
+.viewCvSetRate img{border:none;}
+.alignnone{border:none;}
+.wpcf7-text{width:257px;}
+.contentRightBottom{
+	border:0px solid #000;
+	height:135px;
+	background: #e4e3df url("images/contentRightBottomBg.png") repeat-x;
+}
+.contentRightBottom2{
+	border:0px solid #000;
+	height:136px;
+	background: #e4e3df url("images/contentRightBottomBg.png") repeat-x;
+}
+.contentRightRate p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 15px 0 11px;
+}
+.rateTblSet{width:100%;}
+.contentRightBottom img{
+	float:right;
+	padding-top:5px;
+}
+.contentRightBottomMobileSetNew img{
+	float:right;
+	padding-top:5px;
+}
+.contentRightBottom2 img{
+	float:right;
+	padding-top:5px;
+}
+
+#topMenu a#pull {
+	display: none;
+}
+
+@media only screen and (max-width : 480px) {
+	nav {
+		border-bottom: 0;
+	}
+	#topMenu ul {
+		display: none;
+		height: auto;
+	}
+	#topMenu a#pull {
+    background-color: #283744;
+    display: block;
+    height: 42px;
+    left: -2px;
+    margin-top: -10px;
+    position: relative;
+    width: 100%;
+}
+	#topMenu a#pull:after {
+		content:"";
+		background: url('images/nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+	.logo{
+		margin-left:5px;
+		margin-top:20px;
+		width:200px;
+	}
+	.phoneNo{
+	float:right;
+	font-size:10pt;
+	margin:15px 10px 0px 0px;
+	color:#0076a3;
+	}
+	.mainWrapper {
+    margin: 0 auto;
+    padding: 2px 0 40px;
+    width: 100%;
+}
+.topHeadTilte{
+	margin:15px 0px 0px 0px;
+	padding:0px;
+	font-family: "QuattrocentoSans-Regular";
+	color:#d0b260;
+	font-weight:normal;
+	margin-left:10px;
+	font-size:12pt;
+}
+.headerRight p {
+    color: #FFFFFF;
+    font-family: "QuattrocentoSans-Regular";
+    font-size: 10pt;
+    margin: 0px 0 15px;
+    padding: 0;
+}
+.topHeadSubTilte {
+    color: #00AEEF;
+    float: right;
+    font-family: "QuattrocentoSans-Regular";
+    font-size: 8pt;
+    font-weight: normal;
+    margin: 0 18px;
+    padding: 0;
+}
+.contentRightBottom{
+	border:0px solid #000;
+	height:185px !important;
+	background: #e4e3df url("images/contentRightBottomBg.png") repeat-x;
+}
+.topHeadTxt {
+    color: #CCCCCC;
+    font-family: "QuattrocentoSans-Regular";
+    font-size: 10pt;
+    line-height: 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 80%;
+}
+.topHeadTxt span {
+    color: #D2BC81;
+    font-family: "QuattrocentoSans-Regular";
+    font-size: 10pt;
+    line-height: 25px;
+    margin-top: 15px;
+    width: 80%;
+}
+.headerLeft {
+    border: 0 solid #000000;
+    float: left;
+    height: 300px;
+    width: 55%;
+}
+.headerRight {
+    float: right;
+    height: 300px;
+    padding-top: 20px;
+    width: 40%;
+}
+.header{
+	height:506px;
+	background:none;
+	background-color: #000;
+}
+.contentLeft{
+	width:100%;
+}
+.contentLeft img{
+	width:100%;
+}
+.introTxt {
+    background-color: #EAD998;
+    border: 0px solid #000000;
+    color: #000000;
+    font-family: "QuattrocentoSans-Bold";
+    font-size: 13pt;
+    line-height: 25px;
+    margin-top: -4px;
+    min-height: 278px;
+	width:100%;
+	
+}
+.emailUsNowSet {
+    float: left;
+    margin: 0 auto;
+    margin-top: 52px !important;
+    position: absolute;
+}
+.buttonSetForMobile{height:100px;}
+.contentRightBottomMobileSetNew{
+	float:right;
+	padding-top:25px;
+}
+.contentRightBottomMobileSetNew img{
+	float:right;
+	padding-top:30px;
+	width:100%;
+}
+.contentRightBottom img{
+	float:right;
+	padding-top:105px;
+}
+.rateTblSet{width:100%;}
+.contentRight {
+    background: url("images/contentRightBg.png") no-repeat scroll 22px 0 #E4E3DF;
+    border: 0 solid #000000;
+    color: #000000;
+    float: left;
+    font-family: "QuattrocentoSans-Regular";
+    font-size: 14pt;
+    padding: 10px 0 0;
+    max-width: 100%;
+}
+.contentRightRate {
+    background: url("images/contentRightBg.png") no-repeat scroll 22px 0 #E4E3DF;
+    border: 0 solid #000000;
+    color: #000000;
+    float: left;
+    font-family: "QuattrocentoSans-Regular";
+    font-size: 14pt;
+    padding: 10px 0 0;
+    max-width: 100%;
+}
+.contentRightBottom img{
+	width:100%;
+}
+.contentRightBottom2 img{
+	width:100%;
+}
+#topMenu {
+    border: 0 solid #000000;
+    float: right;
+    height: 30px;
+    margin-right: -2px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#topMenu li {
+    float: left;
+    margin: 0px;
+    position: relative;
+	width:100%;
+}
+
+#topMenu li a {
+    background: url("images/topNavBg.png") repeat-x scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-family: "QuattrocentoSans-Bold";
+    font-size: 12pt;
+    height: 30px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+#topMenu .active a {
+    color: #00BFF3;
+    display: block;
+    float: left;
+    font-family: "QuattrocentoSans-Bold";
+    height: 30px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.contentRight ul li {
+   height:45px;
+
+}
+
+.headerAbout{
+	padding:2px 0px 2px 0px;
+	background:none;
+	background-color: #000;
+}
+.headerRate{
+	padding:2px 0px 2px 0px;
+	background:none;
+	background-color: #000;
+}
+.headerContact{
+	padding:2px 0px 2px 0px;
+	background:none;
+	background-color: #000;
+	height:600px;
+}
+.headerLinks{
+	padding:2px 0px 2px 0px;
+	background:none;
+	background-color: #000;
+	height:950px;
+}
+.viewCvSet {
+    float: left;
+	margin: 0 auto !important;
+    margin-top: -10px !important;
+    position: absolute;
+}
+.viewCvSetMobile{
+	float: left;
+	margin: 0 auto !important;
+    margin-top: -1px !important;
+    position: absolute;
+}
+.viewCvSet2 {
+    float: left;
+    margin: 0 auto;
+    margin-top:-62px;
+    position: absolute;
+}
+.viewCvSetRate{position:absolute;float:left;margin:0 auto;margin-top:-1px}
+.viewCvMobileSetNew img {width:100%;}
+.viewCvMobileSetNew {margin-left:176px !important;}
+.contentRightRate p {
+    line-height: 25px;
+    margin: -8px 0px 11px 0px;
+    font-size: 18px;
+}
+.emailUsNowSetLink{position:absolute;float:left;margin-left:5px;margin-top:50px;}
+.contactFrmCssSet{float:left;width:99%;}
+.contentRightBottom2 img{
+	float:right;
+	padding-top:55px;
+}
+
+tr:nth-of-type(odd) {
+  background-color:#ccc;
+} 
+}
