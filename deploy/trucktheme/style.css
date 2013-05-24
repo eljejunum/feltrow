@@ -25,7 +25,17 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 	color: #444;
-	background: url("images/TruckExperts-home-small-bg.jpg");
+	background: rgb(76,76,76); /* Old browsers */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjI4JSIgc3RvcC1jb2xvcj0iIzRjNGM0YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU3JSIgc3RvcC1jb2xvcj0iIzJiMmIyYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iIzFjMWMxYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg1JSIgc3RvcC1jb2xvcj0iIzFjMWMxYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxYzFjMWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+		background: -moz-linear-gradient(-45deg,  rgba(76,76,76,1) 28%, rgba(43,43,43,1) 57%, rgba(28,28,28,1) 75%, rgba(28,28,28,1) 85%, rgba(28,28,28,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right bottom, color-stop(28%,rgba(76,76,76,1)), color-stop(57%,rgba(43,43,43,1)), color-stop(75%,rgba(28,28,28,1)), color-stop(85%,rgba(28,28,28,1)), color-stop(100%,rgba(28,28,28,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(-45deg,  rgba(76,76,76,1) 28%,rgba(43,43,43,1) 57%,rgba(28,28,28,1) 75%,rgba(28,28,28,1) 85%,rgba(28,28,28,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(-45deg,  rgba(76,76,76,1) 28%,rgba(43,43,43,1) 57%,rgba(28,28,28,1) 75%,rgba(28,28,28,1) 85%,rgba(28,28,28,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(-45deg,  rgba(76,76,76,1) 28%,rgba(43,43,43,1) 57%,rgba(28,28,28,1) 75%,rgba(28,28,28,1) 85%,rgba(28,28,28,1) 100%); /* IE10+ */
+		background: linear-gradient(135deg,  rgba(76,76,76,1) 28%,rgba(43,43,43,1) 57%,rgba(28,28,28,1) 75%,rgba(28,28,28,1) 85%,rgba(28,28,28,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#1c1c1c',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
 	background-position:center; 
 }
 .mainWrapper{
@@ -107,7 +117,6 @@ body {
    width:576px;
    float:right;
    margin-top:10px;
-   margin-right:-2px;
  }
 #topMenu ul {
     list-style: none outside none;
@@ -219,7 +228,7 @@ body {
 }
 .content{
 	margin-top:-1px;
-	background-color: #EAD998;
+	/*background-color: #EAD998;*/
 }
 .contentLeft{
 	width:326px;
@@ -229,7 +238,7 @@ body {
 .introTxt{
 	color:#000;
 	font-family: "QuattrocentoSans-Bold";
-	font-size:18px;
+	font-size:14px;
 	line-height:25px;
 	margin-top:-5px;
 	min-height:278px;
@@ -237,7 +246,7 @@ body {
 	border:0px solid #000;
 }
 .introTxt p{
-	margin:0px 0px 0px 14px;
+	margin:0px 5px 0px 5px;
 	padding:18px 0px 18px 10px;
 }
 .contentRight{
@@ -443,6 +452,7 @@ body {
 	height:506px;
 	background:none;
 	background-color: #000;
+	border-radius: 5px;
 }
 .contentLeft{
 	width:100%;
@@ -455,7 +465,7 @@ body {
     border: 0px solid #000000;
     color: #000000;
     font-family: "QuattrocentoSans-Bold";
-    font-size: 13pt;
+    font-size: 13px;
     line-height: 25px;
     margin-top: -4px;
     min-height: 278px;
@@ -616,3 +626,36 @@ tr:nth-of-type(odd) {
   background-color:#ccc;
 } 
 }
+
+#footer-wrapper{
+	width: 990px;
+	height: 140px;
+	margin: 10px auto;
+	background: url("images/topHeadBg.png") no-repeat 0px 0px;
+	background-size: 100% 100%;
+	background-position: middle;
+	border-radius: 10px;
+	
+}
+#footer-table{
+	margin: 10px auto;
+}
+
+#footer-table img{
+	border: none;
+}
+
+#content-table{
+	width: 100%;
+}
+
+#left-table{
+	width:298px;
+	vertical-align: top;
+	background-color: #EAD998;
+	font-size: 13px;
+}
+
+#right-table{
+	width: 100%;
+	font-size: 14px;

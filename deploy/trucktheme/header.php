@@ -3,6 +3,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/images/favicon.png">
 <head>
 <title><?php bloginfo( 'name' );  wp_title(); ?></title>
 <link rel='stylesheet' href='<?php bloginfo('template_url'); ?>/style.css' type='text/css' media='all' />

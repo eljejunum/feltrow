@@ -9,6 +9,5 @@
 		
 
 	</div><!-- Content Wrapper end -->
-</div><!-- Main Wrapper end -->
 <?php get_footer(); ?>
 
