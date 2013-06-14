@@ -1,0 +1,1537 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eatoreh-wp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-10 21:02+0700\n"
+"PO-Revision-Date: 2013-06-10 21:02+0700\n"
+"Last-Translator: Fauzi Nugroho <fau.gro@gmail.com>\n"
+"Language-Team: faugro <fau.gro@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:19
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../404.php:23
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr ""
+
+#: ../404.php:36
+msgid "Most Used Categories"
+msgstr ""
+
+#: ../404.php:45
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../author.php:13
+#: ../home.php:15
+#: ../index.php:14
+#: ../page.php:15
+msgid "You are Here:"
+msgstr ""
+
+#: ../comments.php:10
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:19
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:26
+#: ../comments.php:39
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:27
+#: ../comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:28
+#: ../comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: ../home.php:59
+#: ../loop.php:43
+msgid "Category"
+msgstr ""
+
+#: ../home.php:60
+#: ../loop.php:44
+msgid "Writen by"
+msgstr ""
+
+#: ../home.php:66
+msgid "Read More..."
+msgstr ""
+
+#: ../home.php:87
+#: ../loop.php:94
+msgid "&laquo; Prev"
+msgstr ""
+
+#: ../home.php:88
+#: ../loop.php:95
+msgid "Next &raquo;"
+msgstr ""
+
+#: ../loop.php:18
+msgid "Website URL: "
+msgstr ""
+
+#: ../loop.php:50
+msgid "Read More"
+msgstr ""
+
+#: ../loop.php:53
+msgid "Tagged under"
+msgstr ""
+
+#: ../loop.php:63
+msgid "Continue reading"
+msgstr ""
+
+#: ../loop.php:67
+msgid "Date posted:"
+msgstr ""
+
+#: ../loop.php:68
+msgid "Author:"
+msgstr ""
+
+#: ../loop.php:70
+msgid "Categories:"
+msgstr ""
+
+#: ../options.php:32
+msgid "None"
+msgstr ""
+
+#: ../options.php:33
+#: ../options.php:39
+msgid "Left"
+msgstr ""
+
+#: ../options.php:34
+#: ../options.php:38
+msgid "Right"
+msgstr ""
+
+#: ../options.php:37
+msgid "No Sidebar"
+msgstr ""
+
+#: ../options.php:42
+msgid "One"
+msgstr ""
+
+#: ../options.php:43
+msgid "Two"
+msgstr ""
+
+#: ../options.php:44
+#: ../options.php:59
+msgid "Three"
+msgstr ""
+
+#: ../options.php:45
+#: ../options.php:60
+msgid "Four"
+msgstr ""
+
+#: ../options.php:48
+msgid "Default"
+msgstr ""
+
+#: ../options.php:49
+msgid "Orange"
+msgstr ""
+
+#: ../options.php:50
+msgid "Pink"
+msgstr ""
+
+#: ../options.php:51
+msgid "Moonstone Blue"
+msgstr ""
+
+#: ../options.php:52
+msgid "Yellow"
+msgstr ""
+
+#: ../options.php:53
+msgid "Red"
+msgstr ""
+
+#: ../options.php:54
+msgid "Green"
+msgstr ""
+
+#: ../options.php:55
+msgid "Teal"
+msgstr ""
+
+#: ../options.php:64
+msgid "Hover"
+msgstr ""
+
+#: ../options.php:65
+msgid "Classic"
+msgstr ""
+
+#: ../options.php:132
+msgid "Main Layout"
+msgstr ""
+
+#: ../options.php:136
+msgid "Your Own logo"
+msgstr ""
+
+#: ../options.php:137
+msgid "Display Your Own logo, default logo will be removed"
+msgstr ""
+
+#: ../options.php:143
+msgid "Upload Your Logo"
+msgstr ""
+
+#: ../options.php:144
+msgid "Upload your logo image here, or specify the image address of your online logo."
+msgstr ""
+
+#: ../options.php:150
+msgid "Your Own Favicon"
+msgstr ""
+
+#: ../options.php:151
+msgid "Display Your Own Favicon, default Favicon will be removed"
+msgstr ""
+
+#: ../options.php:157
+msgid "Upload Your Favicon"
+msgstr ""
+
+#: ../options.php:158
+msgid "Upload your Favicon image here, or specify the image address of your online Favicon."
+msgstr ""
+
+#: ../options.php:164
+msgid "Site Description"
+msgstr ""
+
+#: ../options.php:165
+msgid "Display Site Description."
+msgstr ""
+
+#: ../options.php:173
+msgid "Sidebar Width"
+msgstr ""
+
+#: ../options.php:174
+msgid "Set the Sidebar Width."
+msgstr ""
+
+#: ../options.php:181
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../options.php:182
+msgid "Assign the Sidebar position."
+msgstr ""
+
+#: ../options.php:190
+msgid "Portfolio Sidebar Position"
+msgstr ""
+
+#: ../options.php:191
+msgid "Assign the Portfolio Sidebar position."
+msgstr ""
+
+#: ../options.php:199
+msgid "Bottom Special Width"
+msgstr ""
+
+#: ../options.php:200
+msgid "Assign the bottom widget special width position."
+msgstr ""
+
+#: ../options.php:208
+msgid "Bottom Widget Special Width"
+msgstr ""
+
+#: ../options.php:209
+msgid "Set Bottom Widget Special Width."
+msgstr ""
+
+#: ../options.php:216
+msgid "Other Widget Bottom Width"
+msgstr ""
+
+#: ../options.php:217
+msgid "Other Special Widget Bottom Width, Please Make sure the total width with special bottom width is 100%."
+msgstr ""
+
+#: ../options.php:224
+msgid "Your Copyright"
+msgstr ""
+
+#: ../options.php:225
+msgid "Display your own copyright, default copyright will be removed."
+msgstr ""
+
+#: ../options.php:231
+msgid "Your Copyright Text"
+msgstr ""
+
+#: ../options.php:232
+msgid "Display your own copyright text."
+msgstr ""
+
+#: ../options.php:238
+msgid "Your Analytics Code"
+msgstr ""
+
+#: ../options.php:239
+msgid "Please paste all google analytics script ini here."
+msgstr ""
+
+#: ../options.php:246
+msgid "Home Settings"
+msgstr ""
+
+#: ../options.php:250
+msgid "Show Home Page Title"
+msgstr ""
+
+#: ../options.php:251
+msgid "Display Home Page Title."
+msgstr ""
+
+#: ../options.php:257
+msgid "Home Sidebar Position"
+msgstr ""
+
+#: ../options.php:258
+msgid "Assign the Home Sidebar position."
+msgstr ""
+
+#: ../options.php:266
+msgid "Home Sidebar Width"
+msgstr ""
+
+#: ../options.php:267
+msgid "Set the Home Sidebar Width."
+msgstr ""
+
+#: ../options.php:274
+msgid "Blog Page Settings"
+msgstr ""
+
+#: ../options.php:278
+msgid "Show Blog Page Title"
+msgstr ""
+
+#: ../options.php:279
+msgid "Display Blog Page Title."
+msgstr ""
+
+#: ../options.php:285
+msgid "Blog Page Title"
+msgstr ""
+
+#: ../options.php:286
+msgid "Shown Blog Page Title."
+msgstr ""
+
+#: ../options.php:292
+msgid "Select a Blog Category"
+msgstr ""
+
+#: ../options.php:293
+msgid "Select the category for the Blog Page. Select <strong>All</strong> to show latest posts."
+msgstr ""
+
+#: ../options.php:301
+msgid "Additional Page Settings"
+msgstr ""
+
+#: ../options.php:305
+msgid "Portfolio Page Title"
+msgstr ""
+
+#: ../options.php:306
+msgid "Shown Portfolio Page Title."
+msgstr ""
+
+#: ../options.php:312
+msgid "Portfolio Type"
+msgstr ""
+
+#: ../options.php:313
+msgid "Check this if you use Portfolio post type as portfolio not the original WordPress post."
+msgstr ""
+
+#: ../options.php:319
+msgid "Select a Portfolio Category"
+msgstr ""
+
+#: ../options.php:320
+msgid "Select the category for the Portfolio Page. If you use original WordPress post."
+msgstr ""
+
+#: ../options.php:327
+msgid "Number of posts"
+msgstr ""
+
+#: ../options.php:328
+msgid "How many post will be shown on Portfolio Page, add -1 if you want to show all."
+msgstr ""
+
+#: ../options.php:335
+msgid "Portfolio item layout"
+msgstr ""
+
+#: ../options.php:336
+msgid "Select portfolio item layout."
+msgstr ""
+
+#: ../options.php:345
+msgid "Colors Settings"
+msgstr ""
+
+#: ../options.php:349
+msgid "Show Predefine Colors"
+msgstr ""
+
+#: ../options.php:350
+msgid "Check this if you want to use the others Predefine Colors."
+msgstr ""
+
+#: ../options.php:356
+msgid "Choose Predefine color"
+msgstr ""
+
+#: ../options.php:357
+msgid "Choose one of Predefine Color."
+msgstr ""
+
+#: ../options.php:365
+msgid "Default Body Background Color"
+msgstr ""
+
+#: ../options.php:366
+#: ../options.php:373
+#: ../options.php:380
+#: ../options.php:387
+#: ../options.php:401
+#: ../options.php:408
+#: ../options.php:415
+#: ../options.php:422
+msgid "Edit it as you wish."
+msgstr ""
+
+#: ../options.php:372
+msgid "Default Background Color"
+msgstr ""
+
+#: ../options.php:379
+msgid "Page Header Color"
+msgstr ""
+
+#: ../options.php:386
+msgid "Top and Bottom Background Color"
+msgstr ""
+
+#: ../options.php:393
+msgid "Button Hover Background"
+msgstr ""
+
+#: ../options.php:394
+msgid "Display button, readmore on hover. Edit it as you wish."
+msgstr ""
+
+#: ../options.php:400
+msgid "Default Font Color"
+msgstr ""
+
+#: ../options.php:407
+msgid "Default Link Color"
+msgstr ""
+
+#: ../options.php:414
+msgid "Default Main Menu Color"
+msgstr ""
+
+#: ../options.php:421
+msgid "Default Hover Color"
+msgstr ""
+
+#: ../page.php:44
+msgid "Pages:"
+msgstr ""
+
+#: ../page.php:45
+msgid "Edit"
+msgstr ""
+
+#: ../search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../search.php:25
+msgid "Nothing Found"
+msgstr ""
+
+#: ../search.php:27
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: ../single-portfolio.php:42
+#: ../single-testimonial.php:36
+msgid "Category:"
+msgstr ""
+
+#: ../single-portfolio.php:43
+#: ../single-testimonial.php:37
+#: ../single.php:43
+msgid "Writen by:"
+msgstr ""
+
+#: ../single-portfolio.php:76
+#: ../single.php:80
+msgid "Website: "
+msgstr ""
+
+#: ../single-testimonial.php:62
+msgid "Tags:"
+msgstr ""
+
+#: ../single.php:70
+msgid "Published in: "
+msgstr ""
+
+#: ../single.php:71
+msgid "Tagged Under:"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:59
+msgid "Display posts as widget items"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:73
+msgid "Getting terms..."
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:74
+msgid "Select terms:"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:75
+#: ../function/flexible-posts-widget.php:350
+msgid "No terms found."
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:163
+#: ../function/flexible-posts-widget.php:259
+msgid "Publish Date"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:164
+#: ../function/flexible-posts-widget.php:260
+msgid "Title"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:165
+#: ../function/flexible-posts-widget.php:261
+msgid "Menu Order"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:166
+#: ../function/flexible-posts-widget.php:262
+msgid "Post ID"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:167
+#: ../function/flexible-posts-widget.php:263
+msgid "Author"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:168
+#: ../function/flexible-posts-widget.php:264
+msgid "Post Slug"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:169
+#: ../function/flexible-posts-widget.php:265
+msgid "Comment Count"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:170
+#: ../function/flexible-posts-widget.php:266
+msgid "Random"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:173
+#: ../function/flexible-posts-widget.php:269
+msgid "Ascending"
+msgstr ""
+
+#: ../function/flexible-posts-widget.php:174
+#: ../function/flexible-posts-widget.php:270
+msgid "Descending"
+msgstr ""
+
+#: ../function/portfolio-category.php:11
+msgctxt "taxonomy general name"
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../function/portfolio-category.php:12
+msgctxt "taxonomy singular name"
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../function/portfolio-category.php:13
+msgid "Search Portfolio Category"
+msgstr ""
+
+#: ../function/portfolio-category.php:14
+msgid "All Portfolio Category"
+msgstr ""
+
+#: ../function/portfolio-category.php:15
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: ../function/portfolio-category.php:16
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: ../function/portfolio-category.php:17
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: ../function/portfolio-category.php:18
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: ../function/portfolio-category.php:19
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: ../function/portfolio-category.php:20
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: ../function/portfolio-category.php:21
+#: ../function/post-type.php:114
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../function/post-type.php:8
+msgid "Testimonial"
+msgstr ""
+
+#: ../function/post-type.php:9
+msgid "testimonial Item"
+msgstr ""
+
+#: ../function/post-type.php:10
+msgid "Add New"
+msgstr ""
+
+#: ../function/post-type.php:11
+msgid "Add New testimonial Item"
+msgstr ""
+
+#: ../function/post-type.php:12
+msgid "Edit testimonial Item"
+msgstr ""
+
+#: ../function/post-type.php:13
+msgid "New testimonial Item"
+msgstr ""
+
+#: ../function/post-type.php:14
+msgid "View testimonial Item"
+msgstr ""
+
+#: ../function/post-type.php:15
+msgid "Search testimonial"
+msgstr ""
+
+#: ../function/post-type.php:16
+msgid "Nothing found"
+msgstr ""
+
+#: ../function/post-type.php:17
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../function/post-type.php:41
+#: ../function/post-type.php:42
+msgid "Portfolio"
+msgstr ""
+
+#: ../function/post-type.php:45
+#: ../function/post-type.php:76
+#: ../function/post-type.php:83
+#: ../function/post-type.php:108
+msgid "portfolio"
+msgstr ""
+
+#: ../function/post-type.php:47
+msgctxt "portfolio"
+msgid "Add Item"
+msgstr ""
+
+#: ../function/post-type.php:48
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../function/post-type.php:49
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../function/post-type.php:50
+msgid "View Portfolio"
+msgstr ""
+
+#: ../function/post-type.php:51
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../function/post-type.php:52
+msgid "No Portfolio Items Found"
+msgstr ""
+
+#: ../function/post-type.php:53
+msgid "No Portfolio Items Found In Trash"
+msgstr ""
+
+#: ../function/post-type.php:86
+#, php-format
+msgid "Portfolio Updated. <a href=\"%s\">View portfolio</a>"
+msgstr ""
+
+#: ../function/post-type.php:87
+msgid "Custom Field Updated."
+msgstr ""
+
+#: ../function/post-type.php:88
+msgid "Custom Field Deleted."
+msgstr ""
+
+#: ../function/post-type.php:89
+msgid "Portfolio Updated."
+msgstr ""
+
+#: ../function/post-type.php:90
+#, php-format
+msgid "Portfolio Restored To Revision From %s"
+msgstr ""
+
+#: ../function/post-type.php:91
+#, php-format
+msgid "Portfolio Published. <a href=\"%s\">View Portfolio</a>"
+msgstr ""
+
+#: ../function/post-type.php:92
+msgid "Portfolio Saved."
+msgstr ""
+
+#: ../function/post-type.php:93
+#, php-format
+msgid "Portfolio Submitted. <a target=\"_blank\" href=\"%s\">Preview Portfolio</a>"
+msgstr ""
+
+#: ../function/post-type.php:94
+#, php-format
+msgid "Portfolio Scheduled For: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Portfolio</a>"
+msgstr ""
+
+#: ../function/post-type.php:94
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../function/post-type.php:95
+#, php-format
+msgid "Portfolio Draft Updated. <a target=\"_blank\" href=\"%s\">Preview Portfolio</a>"
+msgstr ""
+
+#: ../function/post-type.php:105
+msgid "portfolio_cat"
+msgstr ""
+
+#: ../function/post-type.php:113
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../function/recent-posts-slider.php:53
+msgid "Recent Posts Slider"
+msgstr ""
+
+#: ../function/recent-posts-slider.php:56
+msgid "A responsive slider of recent posts."
+msgstr ""
+
+#: ../function/testi-meta.php:12
+msgid "Name"
+msgstr ""
+
+#: ../function/testi-meta.php:16
+msgid "Position"
+msgstr ""
+
+#: ../function/testi-meta.php:20
+msgid "Email"
+msgstr ""
+
+#: ../function/testi-meta.php:24
+msgid "Link"
+msgstr ""
+
+#: ../function/widgets.php:7
+msgid "Widgets in this area will be shown on the Slider Section."
+msgstr ""
+
+#: ../function/widgets.php:18
+msgid "Widgets in this area will be shown on the Latest Blog Section."
+msgstr ""
+
+#: ../function/widgets.php:29
+msgid "Widgets in this area will be shown on the Featured Project section on home page."
+msgstr ""
+
+#: ../function/widgets.php:40
+msgid "Widgets in this area will be shown before main content."
+msgstr ""
+
+#: ../function/widgets.php:51
+msgid "Widgets in this area will be shown on the under main content."
+msgstr ""
+
+#: ../function/widgets.php:62
+msgid "Widgets in this area will be shown on home page."
+msgstr ""
+
+#: ../function/widgets.php:73
+msgid "Widgets in this area will be shown on blog page and single blog page."
+msgstr ""
+
+#: ../function/widgets.php:84
+msgid "Widgets in this area will be shown on single portfolio page."
+msgstr ""
+
+#: ../function/widgets.php:95
+msgid "Widgets in this area will be shown on single page."
+msgstr ""
+
+#: ../function/widgets.php:106
+msgid "Widgets in this area will be shown on the above of contact form on contact page."
+msgstr ""
+
+#: ../function/widgets.php:117
+msgid "Widgets in this area will be shown on the right-hand side on contact page."
+msgstr ""
+
+#: ../function/widgets.php:128
+msgid "Widgets in this area will be shown on the Service section under the main contnent of home page."
+msgstr ""
+
+#: ../function/widgets.php:139
+#: ../function/widgets.php:148
+#: ../function/widgets.php:157
+#: ../function/widgets.php:166
+msgid "Widgets in this area will be shown in the upper the footer."
+msgstr ""
+
+#: ../function/widgets.php:177
+msgid "Widgets in this area will be shown on the right-hand side of footer."
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:63
+msgid "Custom Home Page Builder"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:64
+msgid "Home Page"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:76
+#: ../function/page-builder/siteorigin-panels.php:85
+#: ../function/page-builder/siteorigin-panels.php:302
+#: ../function/page-builder/inc/options.php:4
+msgid "Page Builder"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:212
+msgid "Insert"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:213
+msgid "cancel"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:214
+msgid "Delete"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:215
+msgid "Done"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:216
+msgid "Undo"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:217
+msgid "Add"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:220
+msgid "Columns deleted"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:221
+msgid "Widget deleted"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:222
+msgid "Are you sure you want to load this layout? It will overwrite your current page."
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:223
+#, php-format
+msgid "Edit %s Widget"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:680
+msgid "Edit Home Page"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:782
+msgid "Untitled"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:783
+msgid "Unpublished"
+msgstr ""
+
+#: ../function/page-builder/siteorigin-panels.php:787
+#, php-format
+msgid "Clone Page: %s"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:4
+msgid "SiteOrigin Page Builder"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:16
+msgid "General"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:17
+msgid "Display"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:19
+msgid "Post Types"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:22
+msgid "Responsive"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:23
+msgid "Mobile Width"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:24
+msgid "Margin Sides"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:25
+msgid "Margin Bottom"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:55
+msgid "Post types that will have the page builder available"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:62
+msgid "Enabled"
+msgstr ""
+
+#: ../function/page-builder/inc/options.php:67
+msgid "px"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:7
+msgid "Gallery"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:9
+msgid "Displays a gallery."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:45
+msgid "Gallery Images"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:46
+msgid "edit gallery"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:50
+msgid "Comma separated attachment IDs. Defaults to all current page's attachments."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:54
+msgid "Image Size"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:68
+msgid "Gallery Type"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:79
+msgid "Post Content"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:81
+msgid "Displays some form of post content form the current post."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:126
+msgid "Content"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:127
+msgid "Featured Image"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:128
+msgid "Post Tags"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:129
+msgid "Post Categories"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:134
+msgid "Display Content"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:149
+msgid "Image"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:151
+msgid "Displays a simple image."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:184
+msgid "Image URL"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:188
+msgid "Destination URL"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:199
+msgid "Post Loop"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:201
+msgid "Displays a post loop."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:288
+msgid "Unfortunately your theme doesn't have any post loops."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:303
+#: ../function/views/admin-flexi.php:100
+msgid "Template"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:311
+msgid "Post Type"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:320
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:325
+msgid "Order By"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:343
+msgid "Order"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:351
+msgid "Sticky Posts"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:361
+msgid "Additional "
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:363
+#, php-format
+msgid "Additional query arguments. See <a href=\"%s\" target=\"_blank\">query_posts</a>."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:376
+msgid "Embedded Video"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:378
+msgid "Embeds a video."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:404
+msgid "Video"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:420
+msgid "Self Hosted Video"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:422
+msgid "A self hosted video player."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:497
+msgid "Video URL"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:501
+msgid "Poster URL"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:503
+msgid "An image that displays before the video starts playing."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:506
+msgid "Skin"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:513
+msgid "Aspect Ratio"
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:515
+msgid "1.777 is HD standard."
+msgstr ""
+
+#: ../function/page-builder/inc/widgets.php:520
+msgid "Auto Play Video"
+msgstr ""
+
+#: ../function/page-builder/tpl/admin-home-page.php:10
+msgid "ON"
+msgstr ""
+
+#: ../function/page-builder/tpl/admin-home-page.php:11
+msgid "OFF"
+msgstr ""
+
+#: ../function/page-builder/tpl/admin-home-page.php:18
+#, php-format
+msgid "Home page updated. <a href=\"%s\">View page</a>"
+msgstr ""
+
+#: ../function/page-builder/tpl/admin-home-page.php:25
+msgid "Preview Changes"
+msgstr ""
+
+#: ../function/page-builder/tpl/admin-home-page.php:38
+msgid "This interface requires Javascript"
+msgstr ""
+
+#: ../function/page-builder/tpl/help.php:2
+msgid "You can use SiteOrigin Page Builder to create home and sub pages, filled your own widgets."
+msgstr ""
+
+#: ../function/page-builder/tpl/help.php:3
+msgid "The page layouts are responsive and fully customizable."
+msgstr ""
+
+#: ../function/page-builder/tpl/help.php:6
+#, php-format
+msgid "Read the <a href='%s' target='_blank'>full documentation</a> on SiteOrigin."
+msgstr ""
+
+#: ../function/page-builder/tpl/metabox-panels.php:43
+msgid "Add Widget"
+msgstr ""
+
+#: ../function/page-builder/tpl/metabox-panels.php:44
+msgid "Add Columns"
+msgstr ""
+
+#: ../function/page-builder/tpl/metabox-panels.php:46
+msgid "Prebuilt Layouts"
+msgstr ""
+
+#: ../function/page-builder/tpl/metabox-panels.php:84
+msgid "Columns"
+msgstr ""
+
+#: ../function/page-builder/tpl/metabox-panels.php:90
+msgid "Page Layout"
+msgstr ""
+
+#: ../function/page-builder/tpl/metabox-panels.php:96
+msgid "Untitled Layout"
+msgstr ""
+
+#: ../function/slider/admin-slider.php:7
+msgid "Slider Type"
+msgstr ""
+
+#: ../function/slider/admin-slider.php:16
+#: ../function/views/admin-flexi.php:25
+msgid "Filter by Category"
+msgstr ""
+
+#: ../function/slider/admin-slider.php:25
+#: ../function/views/admin-flexi.php:34
+msgid "Filter by Post Type"
+msgstr ""
+
+#: ../function/slider/admin-slider.php:37
+msgid "Slider Duration - Length of time to change slides <em>(In milliseconds)</em>"
+msgstr ""
+
+#: ../function/slider/admin-slider.php:42
+msgid "Slider Pause - Length of time to pause on a slide <em>(In milliseconds)</em>"
+msgstr ""
+
+#: ../function/slider/admin-slider.php:47
+msgid "Number of slides to display"
+msgstr ""
+
+#: ../function/slider/admin-slider.php:52
+msgid "Slider Height <em>(In pixels)</em>"
+msgstr ""
+
+#: ../function/slider/admin-slider.php:58
+msgid "Show Navigation Arrow"
+msgstr ""
+
+#: ../function/slider/admin-slider.php:63
+msgid "Show Post Title"
+msgstr ""
+
+#: ../function/slider/admin-slider.php:68
+msgid "Post Excerpt &nbsp;&nbsp;&nbsp; Length<em>(char)</em>:"
+msgstr ""
+
+#: ../function/views/admin-flexi.php:15
+msgid "Widget title:"
+msgstr ""
+
+#: ../function/views/admin-flexi.php:21
+msgid "Get posts by"
+msgstr ""
+
+#: ../function/views/admin-flexi.php:50
+msgid "Display options"
+msgstr ""
+
+#: ../function/views/admin-flexi.php:52
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../function/views/admin-flexi.php:56
+msgid "Number of posts to skip:"
+msgstr ""
+
+#: ../function/views/admin-flexi.php:60
+msgid "Order posts by:"
+msgstr ""
+
+#: ../function/views/admin-flexi.php:70
+msgid "Order:"
+msgstr ""
+
+#: ../function/views/admin-flexi.php:84
+msgid "Display thumbnails?"
+msgstr ""
+
+#: ../function/views/admin-flexi.php:87
+msgid "Select a thumbnail size to show:"
+msgstr ""
+
+#: ../function/views/temp-3columns.php:37
+#: ../function/views/temp-4columns.php:37
+#: ../function/views/temp-testimonial.php:48
+#: ../function/views/temp-wide-post.php:42
+#: ../function/views/temp-widget.php:41
+msgid "No post found"
+msgstr ""
+
+#: ../includes/carousel-widget.php:11
+#: ../includes/recent-posts-widget-plus.php:41
+msgid "The most recent posts on your site with excerpts"
+msgstr ""
+
+#: ../includes/carousel-widget.php:12
+msgid "Carousel Widget"
+msgstr ""
+
+#: ../includes/carousel-widget.php:18
+#: ../includes/recent-posts-widget-plus.php:48
+msgid "Recent Posts"
+msgstr ""
+
+#: ../includes/carousel-widget.php:91
+#: ../includes/comments.php:90
+#: ../includes/recent-posts-widget-plus.php:102
+msgid "Title:"
+msgstr ""
+
+#: ../includes/carousel-widget.php:101
+#: ../includes/recent-posts-widget-plus.php:112
+msgid "Excerpt length in number of characters:"
+msgstr ""
+
+#: ../includes/carousel-widget.php:106
+msgid "Limit to category: "
+msgstr ""
+
+#: ../includes/carousel-widget.php:107
+msgid "None (all categories)"
+msgstr ""
+
+#: ../includes/carousel-widget.php:111
+msgid "Limit to tags:"
+msgstr ""
+
+#: ../includes/carousel-widget.php:113
+msgid "Enter post tags separated by commas ('cat,dog')"
+msgstr ""
+
+#: ../includes/carousel-widget.php:117
+#: ../includes/recent-posts-widget-plus.php:122
+msgid "Link text:"
+msgstr ""
+
+#: ../includes/carousel-widget.php:122
+#: ../includes/recent-posts-widget-plus.php:127
+msgid "URL:"
+msgstr ""
+
+#: ../includes/comments.php:19
+msgid "Recent comments with configurable option to show avatars and more!"
+msgstr ""
+
+#: ../includes/comments.php:20
+msgid "Recent Comments Widget"
+msgstr ""
+
+#: ../includes/comments.php:58
+msgid "Writen by "
+msgstr ""
+
+#: ../includes/comments.php:94
+msgid "Number of comments to show:"
+msgstr ""
+
+#: ../includes/recent-posts-widget-plus.php:42
+msgid "Recent Posts Widget Plus"
+msgstr ""
+
+#: ../includes/recent-posts-widget-plus.php:117
+msgid "Limit to Project Category: "
+msgstr ""
+
+#: ../includes/recent-posts-widget-plus.php:118
+msgid "None (all project categories)"
+msgstr ""
+
+#: ../includes/simple-google-map-short-code.php:136
+msgid "No location found for the entered address."
+msgstr ""
+
+#: ../includes/simple-google-map-short-code.php:138
+msgid "Invalid request. Did you enter an address?"
+msgstr ""
+
+#: ../includes/simple-google-map-short-code.php:140
+msgid "Something went wrong while retrieving your map, please ensure you have entered the short code correctly."
+msgstr ""
+
+#: ../includes/simple-google-map-short-code.php:144
+msgid "Unable to contact Google API service."
+msgstr ""
+
+#: ../includes/tabber-widget/tabber-tabs.php:71
+msgid "Tabber Tabs Widget Area"
+msgstr ""
+
+#: ../includes/tabber-widget/tabber-tabs.php:73
+msgid "Build your tabbed area by placing widgets here.  !! IMPORTANT: DO NOT PLACE THE TABBER TABS WIDGET IN THIS AREA.  BAD THINGS WILL HAPPEN !! Place the TABBER TABS widget in another widget area. "
+msgstr ""
+
+#: ../includes/tabber-widget/tabber-widget.php:16
+#: ../includes/tabber-widget/tabber-widget.php:53
+msgid "Place items in the TABBER TABS WIDGET AREA and have them show up here."
+msgstr ""
+
+#: ../includes/tabber-widget/tabber-widget.php:18
+msgid "Tabber Tabs Widget"
+msgstr ""
+
+#: ../includes/tabber-widget/tabber-widget.php:48
+msgid "Tabber"
+msgstr ""
+
+#: ../includes/tabber-widget/tabber-widget.php:57
+msgid "Tab Style:"
+msgstr ""
+
+#: ../theme-options/options-framework.php:163
+#: ../theme-options/options-framework.php:380
+msgid "Theme Options"
+msgstr ""
+
+#: ../theme-options/options-framework.php:196
+msgid "Clear"
+msgstr ""
+
+#: ../theme-options/options-framework.php:198
+msgid "Select Color"
+msgstr ""
+
+#: ../theme-options/options-framework.php:244
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../theme-options/options-framework.php:276
+msgid "Default options restored."
+msgstr ""
+
+#: ../theme-options/options-framework.php:330
+msgid "Options saved."
+msgstr ""
+
+#: ../theme-options/options-medialibrary-uploader.php:26
+msgid "Theme Options Media"
+msgstr ""
+
+#: ../theme-options/options-medialibrary-uploader.php:126
+msgid "Upload"
+msgstr ""
+
+#: ../theme-options/options-medialibrary-uploader.php:149
+msgid "View File"
+msgstr ""
+
+#: ../theme-options/options-medialibrary-uploader.php:282
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:232
+msgid "No Repeat"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:233
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:234
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:235
+msgid "Repeat All"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:248
+msgid "Top Left"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:249
+msgid "Top Center"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:250
+msgid "Top Right"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:251
+msgid "Middle Left"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:252
+msgid "Middle Center"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:253
+msgid "Middle Right"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:254
+msgid "Bottom Left"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:255
+msgid "Bottom Center"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:256
+msgid "Bottom Right"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:269
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:270
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:344
+msgid "Normal"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:345
+msgid "Italic"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:346
+msgid "Bold"
+msgstr ""
+
+#: ../theme-options/options-sanitize.php:347
+msgid "Bold Italic"
+msgstr ""
+

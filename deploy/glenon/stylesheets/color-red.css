@@ -1,0 +1,31 @@
+	body { background:#f8f8f8; color:#707070;}
+	
+	/* Font-color */ 
+	#navigation a{ color:#808080; }
+	h3.sidebar-title, h3.widget-title { font-size:20px; color:#666; font-weight:bold; }
+	.main a.more-link, .portf header.title a, .portf h1.page-title, ul.filter > li.active {font-weight:bold;}
+	h5#site-desc, ul.tabbernav li a, article h1.page-title, article h2.post-title a, article h2.post-title a:hover, ul.filter > li a,
+		ul.filter > li a:hover { color:#707070; }
+	#mask-slider, #mask-slider  .ui-tabs-nav-item .title, #promo .bigbutton a, .flexslider a, .flexslider a:hover,  .portf header.title a, .portf h1.page-title
+		#topest, .widget_wysija_cont .wysija-submit:hover, .container .button a:hover, .portfolio .hover a, .portfolio .hover a:hover,
+		.sidebar .recent-posts-plus h3, #nav-below .button a:hover, #nav-below .wp-pagenavi a:hover, #commentform input[type='submit']:hover, 
+		.wpcf7  input[type='submit']:hover, #newsletter a, #newsletter a:hover, #slider .da-slide .da-link:hover,
+		.container .fullblock a, .container .fullblock a:hover, .accButton > span.number, .dpe-flexible-posts.portf-cols a span.title, { color:#fff; }
+	#bottom .menu li a:hover, h1.contentheading { color:#555; }
+	a, #mask-carousel a, #promo .text .like, p.trigger a, p.trigger a:hover,p.trigger.active a:hover, ul.filter > li.active a,
+		#navigation ul.menu > li.active > a, #navigation a:hover, .mainside h5 span, ul.tabbernav li.tabberactive a { color:#bd1500; }
+	a:hover { color:#af1603; }
+	blockquote { font-family:Georgia, Times, serif; }
+
+	/* Background */ 
+	#navigation ul.sub-menu { background:#fff; }
+	.button a, .wp-pagenavi span, .wp-pagenavi a, #newsletter, .portfolio .hover a span, .flex-control-paging li a:hover,
+		.flex-control-paging li a.flex-active, #bottom input[type='submit'], #slider .da-slide .da-link, .wide-post span.blog-date, div.the-date,
+		input.submit, #newsletter .bigbutton a, .widget_wysija_cont .wysija-submit, #commentform input[type='submit'], 
+		.dpe-flexible-posts.portf-cols li span.title, .portf header.title, .wpcf7  input[type='submit'], .accButton > span.number { background:#bd1500; }
+	#newsletter .bigbutton a:hover, .widget_wysija_cont .wysija-submit:hover { background:#000; }
+	.button a:hover, #nav-below .wp-pagenavi a:hover, #commentform input[type='submit']:hover, #bottom input[type='submit']:hover,
+		.wpcf7  input[type='submit']:hover, #promo .bigbutton a:hover, input.submit:hover,
+		#slider .da-slide .da-link:hover, .accButton:hover > span.number, .wide-blog:hover .blog-date { background:#af1603; }
+	#bottom, #footer, #mask-slider li.ui-tabs-nav-item a:hover { background-color:#f3f3f3;}
+	div.sub-menu {background-position:0 -81px;}
