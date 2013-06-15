@@ -1,0 +1,15 @@
+/*
+Theme Name:     Glenon Child Theme for Truck Accident Expert LLC.
+Theme URI:      http://www.truckaccidentexpert.com
+Description:    Child theme for the Glenon theme
+Author:         Jordan Mirrer
+Author URI:     http://jordanmirrer.com
+Template:       glenon                          
+Version:        0.1.0
+*/
+
+@import url("../glenon/style.css");
+
+
+/* HEADER STYLES */
+
