@@ -1,0 +1,59 @@
+/**
+* Custom CSS for TruckAccidentExpert.com on top of Glenon theme
+* Author: Jordan Mirrer
+* Author URI: http://jordanmirrer.com
+**/
+
+/*==================================================*/
+/* HEADER STYLES - section #header */
+/*==================================================*/
+	#header{
+		background-image: url("../glenon-child/images/wood-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: 0% 40%;
+		background-size: 100% 60%;
+	}
+	
+	#header > .container {
+		/*background-image: url("../glenon-child/images/bar.png");*/
+	}
+	
+	
+	
+	#navigation {
+		padding-right: 10px;
+	}
+
+	/* Some edits for mobile/tablet */
+	@media only screen and (max-width: 767px) {
+		background-position: 0% 0%;
+	}
+
+/*==================================================*/
+/* SIDEBAR STYLES - section #header */
+/*==================================================*/
+	h3.sidebar-title{
+		font-family: Helvetica, sans-serif;
+	}
+
+
+/*==================================================*/
+/* FOOTER STYLES - section #bottom */ 
+/*==================================================*/
+	#bottom{
+		background-image: url('../glenon-child/images/wood-bg.jpg');
+	}
+
+	#bottom .container {
+		border-bottom: none;
+	}
+	
+/*==================================================*/
+/* BLOG STYLES */ 
+/*==================================================*/
+	#blogpage.main a.more-link{
+		font-family: Helvetica, Arial, sans-serif;
+	}
+
+
+

@@ -1,0 +1,10 @@
+/* FOOTER STYLES - section #bottom */ 
+
+#bottom{
+	font-size: 45px;
+	background-image: url('http://clients.jordanmirrer.com/truckaccident/wp-content/themes/glenon-child/images/wood-bg.jpg');
+}
+
+#bottom .container {
+	border-bottom: none;
+}

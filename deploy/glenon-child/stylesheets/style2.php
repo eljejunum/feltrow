@@ -29,6 +29,7 @@ function my_styles_method() {
 	$other_bottom_width = of_get_option('other-bottom-width');
 	$special_bottom_width = of_get_option('special-bottom-width');
 	$special_bottom_position = of_get_option('bottom-widget-position');
+	$bottom_bg = get_stylesheet_template_uri . '/images/wood-bg.jpg';
 
 	$custom_css = "
 	/* Basic ========================================= */
@@ -51,7 +52,7 @@ function my_styles_method() {
 	h1, h2, h3, h4, h5, h6, article.wide-blog .blog-title, #navigation ul.menu a, 
 		.tabberlive li a { font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; }
 	#mask-carousel a.Car-PostTitle, .carousel-widget a.Car-PostTitle, h3.widget-title, .title a, .sidebar h3, .menu-desc, 
-		.main a.more-link, .portf h1.page-title { font-family: /*'RabioheadRegular'*/ Helvetica, Arial, sans-serif; }
+		.main a.more-link, .portf h1.page-title { font-family: 'RabioheadRegular'; }
 	h5#site-desc, #mask-slider .info h2, #mask-slider .ui-tabs-nav-item .title, #promo .text, 
 		#bottom h3, #respond #reply-title, #slider h3 { font-family: 'Droid Sans', 'DroidSansRegular'; }
 	#mask-carousel .post-meta { font-family: 'Trebuchet MS',Helvetica,sans-serif; }
@@ -84,7 +85,7 @@ function my_styles_method() {
 	.button a:hover, #nav-below .wp-pagenavi a:hover, #commentform input[type='submit']:hover, #bottom input[type='submit']:hover,
 		.wpcf7  input[type='submit']:hover, #promo .bigbutton a:hover, input.submit:hover,
 		#slider .da-slide .da-link:hover, .accButton:hover > span.number, .wide-blog:hover .blog-date { background:{$but_hov_bg}; }
-	#bottom, #footer, #mask-slider li.ui-tabs-nav-item a:hover { background-color: {$tb_bg_color};}
+	#bottom, #footer, #mask-slider li.ui-tabs-nav-item a:hover { background-image: {$bottom_bg};}
 	.latest-item img, .wp-caption, .entry-content p:first-child img, #commentsin, .portf a.port-img, .blog-thumb img.wp-post-image, 
 		.widget_dpe_fp_widget img, .blog-image {}
 
