@@ -5,7 +5,7 @@ add_action('init', 'testimonial_register');
 function testimonial_register() {
  
 	$labels = array(
-		'name' => __('Testimonial', 'glenon_wp'),
+		'name' => __('Testimonial GOGODAFSG', 'glenon_wp'),
 		'singular_name' => __('testimonial Item', 'glenon_wp'),
 		'add_new' => __('Add New', 'testimonial item', 'glenon_wp'),
 		'add_new_item' => __('Add New testimonial Item', 'glenon_wp'),

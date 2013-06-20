@@ -35,7 +35,6 @@ add_action('init','unhook_glenon_defaults');
 allfunction_init();
  */
 
-
 /*-----------------------------------------------------------------------------------*/
 /** ENQUING FUNCTIONS **/
 ?>

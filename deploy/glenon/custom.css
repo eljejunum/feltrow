@@ -23,6 +23,10 @@
 	#navigation {
 		padding-right: 10px;
 	}
+	
+	#navigation a{
+		color: rgb(180, 180, 180);
+	}
 
 	/* Some edits for mobile/tablet */
 	@media only screen and (max-width: 767px) {
@@ -48,6 +52,9 @@
 		border-bottom: none;
 	}
 	
+	#bottom .padding {
+		color: rgb(180, 180, 180);
+	}
 /*==================================================*/
 /* BLOG STYLES */ 
 /*==================================================*/
@@ -55,5 +62,17 @@
 		font-family: Helvetica, Arial, sans-serif;
 	}
 
+/*==================================================*/
+/* FORMS STYLES */ 
+/*==================================================*/
 
+	input,
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		background: rgb(220, 220, 220);
+		color: rgb(80, 80, 80);
+	}
 
