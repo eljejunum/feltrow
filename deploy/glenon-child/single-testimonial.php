@@ -10,11 +10,12 @@ get_header();  //the Header ?>
 	<section id="slider">
 		<div class="container">
 			<div class="breadcrumbs">
-				<span><?php _e('You are Here:', 'glenon_wp') ?></span>
-				<?php if(function_exists('bcn_display'))
+				<?php $fakeCrumbs = '<a title="Go to Truck Accident Expert LLC." href="' . get_home_url() . '" class="site-home"> Truck Accident Expert LLC</a> > <a title="Go to Testimonials." href="' . get_home_url() . '/testimonials" class="post-root post-post">Testimonials</a>'; ?>
+				<span><?php _e('You are Here:  '. $fakeCrumbs, 'glenon_wp') ?></span>
+				<?php /*if(function_exists('bcn_display'))
 				{
 					bcn_display();
-				}?>
+				}*/?>
 			</div>
 		</div>
 	</section>
