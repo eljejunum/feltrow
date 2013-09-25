@@ -8,7 +8,9 @@
  */
 
 get_header(); 
-get_template_part( 'menu', 'index' ); //the  menu + logo/site title ?>
+get_template_part( 'menu', 'index' ); //the  menu + logo/site title 
+get_template_part('includes/slider');
+?>
 
 	<?php if ( is_active_sidebar( 'mapbar' ) ) : ?>
 	<section id="bigmap" class="clearfix">

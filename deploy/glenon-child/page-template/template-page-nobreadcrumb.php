@@ -9,7 +9,10 @@
 
     <?php get_header();  //the Header ?>
         
-    <?php get_template_part( 'menu', 'index' ); //the  menu + logo/site title ?>
+    <?php 
+    	get_template_part( 'menu', 'index' ); //the  menu + logo/site title 
+    	get_template_part('includes/slider');
+    ?>
 	
 	<section id="maincontent" class="content-<?php echo of_get_option('sidebar-position') ?>">
 		<div class="container">		
